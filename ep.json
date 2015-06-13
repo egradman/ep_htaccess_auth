@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "ep_htaccess_auth",
+      "hooks": {
+        "authenticate": "ep_htaccess_auth/ep_htaccess_auth"
+      }
+    }
+  ]
+}

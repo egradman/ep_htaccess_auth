@@ -1,0 +1,25 @@
+{
+  "name": "ep_htaccess_auth",
+  "version": "1.0.2",
+  "description": "Allow the use of htaccess file in etherpad-lite.",
+  "main": "ep_htaccess_auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hash",
+    "password",
+    "auth",
+    "etherpad-lite"
+  ],
+  "author": {
+    "name": "egradman"
+  },
+  "license": "GPL-3.0+",
+  "readme": "This plugins allows htaccess authentication",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "pass": "~0.2.0",
+    "async": "~1.2.1"
+  }
+}
